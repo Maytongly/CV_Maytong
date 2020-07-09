@@ -22,7 +22,19 @@
 {
 	padding: 35px;
 }
+#element1 h2
+{
+	text-align: center;
+}
 /*style colonne de droite*/
+h1 span
+{
+	color: #FFCA28;
+}
+p span
+{
+	text-decoration: underline #FFCA28;
+}
 #element2
 {
 	padding: 35px;
