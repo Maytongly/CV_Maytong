@@ -1,0 +1,34 @@
+#contenu
+{
+	display: flex;
+	width: 21cm;
+	height: 29cm;
+	border: 1px solid grey;
+}
+/*style colonne de gauche*/
+#element1
+{
+	background-color: #FFCA28;
+	width: 8cm;
+	text-align: justify;
+
+}
+#element1 h2
+{
+	background-color: #424242;
+	color:  #FFCA28;
+}
+#element1 p
+{
+	padding: 35px;
+}
+/*style colonne de droite*/
+#element2
+{
+	padding: 35px;
+	width: 13cm;
+}
+#element2 h2
+{
+	border-bottom: 2px solid #FFCA28;
+}
