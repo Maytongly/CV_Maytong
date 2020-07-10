@@ -9,7 +9,7 @@
 #element1
 {
 	background-color: #FFCA28;
-	column-width: 7cm;
+	column-width: 6cm;
 	text-align: justify;
 
 }
@@ -40,7 +40,7 @@ h1 span
 #element2
 {
 	padding: 35px;
-	column-width: 11cm;
+	column-width: 12cm;
 }
 #element2 h2/*trait sous chaque Sections du CV*/
 {
@@ -50,10 +50,15 @@ h1 span
 
 	/*début code CSS pour section Formation*/
 
+#formation_master
+{
+	display: flex;
+	flex-direction: column-reverse;
+}
+
 #FORMATION1/*de 2003 à 2007*/
 {
 	display: flex;
-	
 	width: 13cm;
 	margin: 20px;
 }
