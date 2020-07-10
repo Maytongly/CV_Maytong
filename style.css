@@ -9,7 +9,7 @@
 #element1
 {
 	background-color: #FFCA28;
-	width: 8cm;
+	min-width: 8cm;
 	text-align: justify;
 
 }
@@ -27,20 +27,84 @@
 	text-align: center;
 }
 /*style colonne de droite*/
+
 h1 span
 {
 	color: #FFCA28;
 }
-p span
+#sousligner /*souslignage de dévelopeuse dans header*/
 {
 	text-decoration: underline #FFCA28;
 }
 #element2
 {
 	padding: 35px;
-	width: 13cm;
+	max-width: 13cm;
 }
-#element2 h2
+#element2 h2/*trait sous chaque Sections du CV*/
 {
 	border-bottom: 2px solid #FFCA28;
+
+}
+
+/*début code CSS pour section Formation*/
+
+#FORMATION1
+{
+	display: flex;
+	width: 13cm;
+	margin: 20px;
+}
+.class1
+{
+	flex: 1;
+}
+.class2
+{
+	flex: 2;
+	margin-left: 30px;
+}
+#formation2
+{
+	display: flex;
+	margin: 20px;
+}
+.class3
+{
+	flex: 1;
+}
+.class4
+{
+	flex: 2;
+	margin-left: 47px;
+}
+#formation3
+{
+	display: flex;
+	margin: 20px;
+}
+.class5
+{
+	flex: 1;
+}
+.class6
+{
+	flex: 2;
+	margin-left: 47px;
+}
+/*fin code CSS pour section Formation*/
+/*Début codes CSS pour section Expérience*/
+#experience
+{
+	display: flex;
+	margin: 20px;
+}
+.class7
+{
+	flex: 1;
+}
+.class8
+{
+	flex: 2;
+	margin-left: 47px;
 }
