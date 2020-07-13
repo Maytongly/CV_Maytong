@@ -1,10 +1,10 @@
 #contenu
 {
 	display: flex;
-	width: 1190px;
-	height: 1684px;
+	width: 595px;
+	height: 842px;
 	border: 1px solid grey;
-	font-size: 20px;
+	font-size: 10px;
 	font-family: Arial, "times new roman", serif;
 	overflow: auto;
 }
@@ -19,12 +19,12 @@
 	flex-direction: column;
 	justify-content: space-around;
 
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 #element2
 {
-	padding: 60px 35px 60px 35px;
+	padding: 30px 20px 30px 20px;
 	width: 800px;
 	color: #263238;
 	overflow: auto;
@@ -37,10 +37,10 @@
 /*style colonne de gauche*/
 #tete
 {
-	width:220px;
-	height:220px;
+	width:100px;
+	height:100px;
 	border-radius: 50%;
-	margin-left: 70px;
+	margin-left: 38px;
 }
 ul
 {
@@ -57,33 +57,32 @@ ul
 }
 #element1 p
 {
-	padding: 35px;
+	padding: 15px;
 }
 #element1 i
 {
 	color: #263238;
-	font-size: 60px;
+	font-size: 30px;
 	
-	border: 3px solid #263238;
+	border: 2px solid #263238;
 	border-radius: 50%;
-	padding: 10px;
+	padding: 5px;
 }
 #logo1
 {
 	display: inline-flex;
 	justify-content: space-around;
-
 }
 /*style colonne de droite*/
 h1
 {
-	font-size: 70px;
+	font-size: 30px;
 	margin-bottom: 5px;
 	font-weight: normal;
 }
  header h3
 {
-	font-size:30px;
+	font-size:15px;
 
 
 }
@@ -93,7 +92,7 @@ h1 span
 }
 h2
 {
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 #sousligner /*souslignage de dévelopeuse dans header*/
 {
@@ -102,13 +101,12 @@ h2
 
 #element2 h2/*trait sous chaque Sections du CV*/
 {
-	border-bottom: 4px solid #B39DDB;
+	border-bottom: 2px solid #B39DDB;
 }
 #formation_master
 {
 	display: flex;
 	flex-direction: column-reverse;
-	justify-content: space-around;
 }
 #formation
 {
