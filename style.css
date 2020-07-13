@@ -6,31 +6,46 @@
 	border: 1px solid grey;
 	font-size: 20px;
 	font-family: Arial, "times new roman", serif;
+	overflow: auto;
 }
-/*Début style colonne de gauche*/
+#element1
+{
+	background-color: #B39DDB;
+	width: 390px;
+	text-align: justify;
+	overflow: auto;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#element2
+{
+	padding: 60px 35px 60px 35px;
+	width: 800px;
+	color: #263238;
+	overflow: auto;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+/*style colonne de gauche*/
 #tete
 {
 	width:220px;
 	height:220px;
 	border-radius: 50%;
-	margin: 82px 82px 41px 82px;
-}
-nav
-{
-	height: 390px;
+	margin-left: 70px;
 }
 ul
 {
 	list-style-type: none;
 	padding-top: 25px;
-}
-#element1
-{
-	background-color: #B39DDB;
-	column-width: 380px;
-	text-align: justify;
-	flex: 1;
-	overflow: auto;
 }
 #element1 h2
 {
@@ -44,34 +59,33 @@ ul
 {
 	padding: 35px;
 }
-.apropos
+#element1 i
 {
-	height: 700px;
-}
-.logo1
-{
-	height: 45px;
-	width: 45px;
-	padding: 12px;
-	margin: 1px 10px 1px 30px;
-	border: 2px solid black;
-	border-radius: 50%;
-}
+	color: #263238;
+	font-size: 60px;
 	
-/*Fin style colonne de gauche*/
-/*Début style colonne de droite*/
-
-header
+	border: 3px solid #263238;
+	border-radius: 50%;
+	padding: 10px;
+}
+#logo1
 {
-	height: 250px;
+	display: inline-flex;
+	justify-content: space-around;
 
 }
+/*style colonne de droite*/
 h1
 {
 	font-size: 70px;
-	margin-top: 100px;
 	margin-bottom: 5px;
 	font-weight: normal;
+}
+ header h3
+{
+	font-size:30px;
+
+
 }
 h1 span
 {
@@ -85,32 +99,20 @@ h2
 {
 	text-decoration: underline #B39DDB;
 }
-#element2
-{
-	padding: 35px;
-	column-width: 800px;
-	flex: 2;
-	color: #263238;
-	overflow: auto;
-}
+
 #element2 h2/*trait sous chaque Sections du CV*/
 {
 	border-bottom: 4px solid #B39DDB;
 }
-
-	/*début code CSS pour section Formation*/
-
-#formation_master /*
-*/
+#formation_master
 {
 	display: flex;
 	flex-direction: column-reverse;
+	justify-content: space-around;
 }
-
-#formation1/*de 2003 à 2007*/
+#formation
 {
 	display: flex;
-	margin: 20px;
 }
 .class1
 {
@@ -120,83 +122,21 @@ h2
 .class2
 {
 	flex: 2;
-	
 }
-#formation2/*de 2007 à 2009*/
-{
-	display: flex;
-	margin: 20px;
-}
-.class3
-{
-	font-weight: bold;
-	flex: 1;
-}
-.class4
-{
-	flex: 2;
-	
-}
-#formation3/*2020*/
-{
-	display: flex;
-	margin: 20px;
-	
-
-}
-.class5
-{
-	font-weight: bold;
-	flex: 1;
-}
-.class6
-{
-	flex: 2;
-	
-}
-	/*fin code CSS pour section Formation*/
-	/*Début codes CSS pour section Expérience*/
 #experience
 {
 	display: flex;
-	margin: 20px;
-	height: 250px;
-}
-.class7
-{
-	font-weight: bold;
-	flex: 1;
-}
-.class8
-{
-	flex: 2;
 }
 h3
 {
-	margin-top: 1px;
-}
-.logo2
-{
-	height:40px; 
-	width:40px;
-	margin-right: 30px;
-}
-.puce
-{
-	width:2px;
-	height: 2px;
-	background-color: red;
-}
-#element2 li
-{
-	list-style-type: circle;
-
+	margin-top: 1px; /* permet d'aligner la date avec le paragraphe*/
 }
 .reco
 {
 	font-weight: bold;
-	max-height: 200px;
 }
-
-	/*Début codes CSS pour section Expérience*/
-/*Fin style colonne de droite*/
+i
+{
+	color: #B39DDB;
+	margin-right: 10px;
+}
