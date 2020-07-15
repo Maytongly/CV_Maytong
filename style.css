@@ -1,17 +1,18 @@
 #contenu
 {
 	display: flex;
-	width: 595px;
-	height: 842px;
+	width: 1190px;
+	height: 1684px;
 	border: 1px solid grey;
-	font-size: 10px;
+	font-size: 20px;
 	font-family: Arial, "times new roman", serif;
 	overflow: auto;
+	margin: auto;
 }
 #element1
 {
 	background-color: #B39DDB;
-	width: 390px;
+	flex: 1;
 	text-align: justify;
 	overflow: auto;
 
@@ -24,8 +25,8 @@
 }
 #element2
 {
-	padding: 30px 20px 30px 20px;
-	width: 800px;
+	padding: 60px 40px 60px 40px;
+	flex: 2;
 	color: #263238;
 	overflow: auto;
 
@@ -37,16 +38,12 @@
 /*style colonne de gauche*/
 #tete
 {
-	width:100px;
-	height:100px;
+	width:200px;
+	height:200px;
 	border-radius: 50%;
-	margin-left: 38px;
+	margin-left: 80px;
 }
-ul
-{
-	list-style-type: none;
-	padding-top: 25px;
-}
+
 #element1 h2
 {
 	background-color: #263238;
@@ -57,16 +54,16 @@ ul
 }
 #element1 p
 {
-	padding: 15px;
+	padding: 0 30px 0 30px;
 }
 #element1 i
 {
 	color: #263238;
-	font-size: 30px;
+	font-size: 60px;
 	
 	border: 2px solid #263238;
 	border-radius: 50%;
-	padding: 5px;
+	padding: 10px;
 }
 #logo1
 {
@@ -76,13 +73,13 @@ ul
 /*style colonne de droite*/
 h1
 {
-	font-size: 30px;
+	font-size: 60px;
 	margin-bottom: 5px;
 	font-weight: normal;
 }
  header h3
 {
-	font-size:15px;
+	font-size:30px;
 
 
 }
@@ -129,12 +126,49 @@ h3
 {
 	margin-top: 1px; /* permet d'aligner la date avec le paragraphe*/
 }
-.reco
-{
-	font-weight: bold;
-}
+
 i
 {
 	color: #B39DDB;
 	margin-right: 10px;
 }
+
+/* Responsive code css*/
+
+@media screen and (max-width: 1250px)
+{
+	#contenu
+	{
+		flex-direction: column-reverse;
+		height: 100%;
+		text-align: center;
+	}
+
+	#formation
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	
+	
+	#experience
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+	#tete
+	{
+		margin-left: 500px;
+	}
+	#CONTACT
+	{
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
+	}
+	#element1 i
+	{
+		font-size: 120px;
+		padding: 20px;
+	}
