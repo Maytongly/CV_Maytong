@@ -1,13 +1,18 @@
+body
+{
+	background-color: #EDE7F6;
+}
 #contenu
 {
 	display: flex;
-	width: 1190px;
+	max-width: 1190px;
 	height: 1684px;
 	border: 1px solid grey;
 	font-size: 20px;
 	font-family: Arial, "times new roman", serif;
 	overflow: auto;
 	margin: auto;
+	background-color: white;
 }
 #element1
 {
@@ -142,10 +147,11 @@ i
 		flex-direction: column-reverse;
 		height: 100%;
 		text-align: center;
-	
+		width: 100%;
 	}
 	#element2
 	{
+		padding: 5% 0% 5% 0%;
 		font-size: 40px;
 	}
 	.apropos
@@ -181,7 +187,9 @@ i
 
 	#tete
 	{
-		margin-left: 500px;
+		height: 500px;
+		width: 500px;
+		margin-left: 25%;
 	}
 	#CONTACT
 	{
@@ -193,4 +201,3 @@ i
 	{
 		font-size: 120px;
 		padding: 20px;
-	}
