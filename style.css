@@ -142,15 +142,37 @@ i
 		flex-direction: column-reverse;
 		height: 100%;
 		text-align: center;
+	
 	}
-
+	#element2
+	{
+		font-size: 40px;
+	}
+	.apropos
+	{
+		font-size: 40px;
+	}
+	h1 
+	{
+		font-size: 100px;
+	}
+	h2 
+	{
+		background-color: #B39DDB;
+	}
 	#formation
 	{
 		display: flex;
 		flex-direction: column;
 	}
-	
-	
+	h2 i 
+	{
+		color: #263238;
+	}
+	i 
+	{
+		padding-right: 2%;
+	}
 	#experience
 	{
 		display: flex;
