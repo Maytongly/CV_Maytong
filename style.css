@@ -146,43 +146,6 @@ i
 	margin-right: 10px;
 }
 
-/* Responsive code css
-@media screen and (max-width: 1250px) and (min-width: 800px)
-{
-	#contenu
-	{
-		max-width: 595px;
-		max-height: 842px;
-		font-size: 10px;
-	}
-	h1
-	{
-		font-size: 35px;
-	}
-	header h3 
-	{
-		
-		font-size: 15px;
-	}
-	img 
-	{
-		width: 100px;
-		height: 100px;
-		margin-left: 20%;
-	}
-	#element1 i 
-	{
-		font-size: 20px;
-	}
-	#element2
-	{
-		padding: 5% 5% 10% 5%;
-
-	}
-}
-*/
-
-/*Petit écran*/
 @media screen and (max-width: 1200px)
 {
 	#contenu
