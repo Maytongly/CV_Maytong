@@ -209,7 +209,17 @@ i
 	{
 		background-color: #B39DDB;
 	}
-	#formation
+	#formation1
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	#formation2
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	#formation3
 	{
 		display: flex;
 		flex-direction: column;
