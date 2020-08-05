@@ -6,7 +6,7 @@ body
 {
 	display: flex;
 	max-width: 1190px;
-	height: 1684px;
+
 	border: 1px solid grey;
 	font-size: 20px;
 	font-family: Arial, "times new roman", serif;
@@ -14,7 +14,7 @@ body
 	margin: auto;
 	background-color: white;
 }
-#element1
+aside
 {
 	background-color: #B39DDB;
 	flex: 1;
@@ -28,7 +28,7 @@ body
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
-#element2
+#main-content
 {
 	padding: 60px 40px 60px 40px;
 	flex: 2;
@@ -49,7 +49,7 @@ img
 	margin-left: 80px;
 }
 
-#element1 h2
+aside h2
 {
 	background-color: #263238;
 	color:  #B39DDB;
@@ -57,11 +57,15 @@ img
 	padding-top: 6px;
 	padding-bottom: 6px;
 }
-#element1 p
+li
+{
+	list-style-type: none;
+}
+aside p
 {
 	padding: 0 30px 0 30px;
 }
-#element1 i
+aside i
 {
 	color: #263238;
 	font-size: 60px;
@@ -70,9 +74,9 @@ img
 	border-radius: 50%;
 	padding: 10px;
 }
-#logo1
+.logo1
 {
-	display: inline-flex;
+	display: flex;
 	justify-content: space-around;
 }
 /*style colonne de droite*/
@@ -101,40 +105,25 @@ h2
 	text-decoration: underline #B39DDB;
 }
 
-#element2 h2/*trait sous chaque Sections du CV*/
+#main-content h2/*trait sous chaque Sections du CV*/
 {
 	border-bottom: 2px solid #B39DDB;
 }
-#formation_master
-{
-	display: flex;
-	flex-direction: column-reverse;
-}
-#formation1
+.sous-section
 {
 	display: flex;
 }
-#formation2
-{
-	display: flex;
-}
-#formation3
-{
-	display: flex;
-}
-.class1
+
+.date
 {
 	font-weight: bold; 
 	flex: 1;
 }
-.class2
+.lieu
 {
 	flex: 2;
 }
-#experience
-{
-	display: flex;
-}
+
 h3
 {
 	margin-top: 1px; /* permet d'aligner la date avec le paragraphe*/
@@ -155,12 +144,12 @@ i
 		text-align: center;
 		width: 100%;
 	}
-	#element2
+	#main-content
 	{
 		padding: 5% 0% 5% 0%;
 		font-size: 40px;
 	}
-	.apropos
+	aside
 	{
 		font-size: 40px;
 	}
@@ -172,21 +161,12 @@ i
 	{
 		background-color: #B39DDB;
 	}
-	#formation1
+	.sous-section
 	{
 		display: flex;
 		flex-direction: column;
 	}
-	#formation2
-	{
-		display: flex;
-		flex-direction: column;
-	}
-	#formation3
-	{
-		display: flex;
-		flex-direction: column;
-	}
+	
 	h2 i 
 	{
 		color: #263238;
@@ -195,12 +175,7 @@ i
 	{
 		padding-right: 2%;
 	}
-	#experience
-	{
-		display: flex;
-		flex-direction: column;
-	}
-
+	
 	img
 	{
 		height: 500px;
@@ -213,8 +188,9 @@ i
 		justify-content: space-around;
 		width: 100%;
 	}
-	#element1 i
+	aside i
 	{
 		font-size: 120px;
 		padding: 20px;
 	}
+}

@@ -9,25 +9,24 @@
 <body>
 	<div id="contenu">
 <!--colonne de gauche début-->
-		<div id="element1"> 
-			
+		<aside> 
 			<img src="image/tete.png" alt="ma_tete">
 			<nav>
 			<h2>CONTACT</h2>
-				<div id="CONTACT">
+				<ul>
 				
-					<div  class="adresse"><p>Adresse<br/>
-						Orléans, France</p></div>
-					<div class="tel"><p>Téléphone<br/>
-						06 00 00 00 00</p></div>
-					<div class="email"><p>Email<br/>
-						<a href="mailto:nom@email.com">nom@email.com</a></p></div>
-					<div class="site"><p>Site Web<br/>
-						<a href="www.monsite.com">www.monsite.com</a></p></div>
+					<li>Adresse<br/>
+						Orléans, France</li><br/>
+					<li>Téléphone<br/>
+						06 00 00 00 00</p></li>
+					<li>Email<br/>
+						<a href="mailto:nom@email.com">nom@email.com</a></li><br/>
+					<li>Site Web<br/>
+						<a href="www.monsite.com">www.monsite.com</a></li>
 				
-			    </div>
+				</ul>
 			</nav>
-			<div class="apropos">
+			<article>
 			<h2>À PROPOS DE MOI</h2>
 			
 <p>Passionnée par le dessin et l'art plastique, le métier de développeur correspond parfaitement à mes envies et besoins de création, d'imagination et d'invention.<br/>
@@ -36,76 +35,69 @@ Après les logiciels de dessin et d'image tel que Krita ou photoshop, j'explore 
 Les codes sont comme des formules magiques que l'on pose sur un support informatique et qui prennent forme à travers nos sites et nos applications.<br/>
 
 En reconversion, j'ai choisi ce métier pour l'opportunité qu'il nous offre à nous exprimer pleinement en réalisant les projets qui nous tiennent à coeur et à les partager sur la toile.</p>
-			</div>
+			</article>
+			<article>
 			<h2>LOISIRS</h2>
-			<div id="logo1">
+			<div class="logo1">
 				<i class="fas fa-palette"></i>
 				<i class="fas fa-film"></i>
 				<i class="fas fa-music"></i>
 			</div>
-		</div>
+			</article>
+		</aside>
 <!--fin colonne de gauche-->
 <!--colonne droite début-->
-		<div id="element2">
-			<div id="header">
+		<main id="main-content">
 			<header>
 			<h1><span>MAY TONG</span> VANG</h1>
 				<h3><span id="sousligner">Dével</span>oppeuse Web Freelance</h3>
 			</header>
-			</div>
 	<!--Section Formation-->
 			<section>
 				<h2><i class="fas fa-graduation-cap"></i>FORMATION</h2>
-				
-				<!--début id formation_master-->
-				<div id="formation_master">	
-					<!--formation1-->
-					<div id="formation1">
-						<div class="class1">
-							<i class="fas fa-circle fa-xs"></i>2003 à 2007
+					<!--sous-section-->
+					<div class="sous-section">
+						<div class="date">	
+							<i class="far fa-dot-circle"></i>2020
 						</div>
-						<div class="class2">
-							<h3>LYCÉE BENJAMIN FRANKLIN (45)</h3>
-							<p>BAC ES, éconimique et social,<br/>
-							option anglais renforcé</p>
+						<div class="lieu">
+							<h3>OPENCLASSROOMS,</h3>
+							<p>Développeur Web,<br/>
+							HTML/CSS<br/>
+							Git et GitHub<br/>
+							Visual Studio</p>
 						</div>
 					</div>
-					<!--formation2-->
-					<div id="formation2">
-						<div class="class1">
+					<!--sous-section-->
+					<div class="sous-section">
+						<div class="date">
 							<i class="fas fa-circle fa-xs"></i>2007 à 2009
 						</div>
-						<div class="class2">
+						<div class="lieu">
 							<h3>UNIVÉRSITÉ DES LANGUES</h3>
 							<p>Orléans la Source (45)<br/>
 							LEA: Langues étrangrères appliquées,<br/>
 							option anglais/japonais</p>
 						</div>
 					</div>
-					<!--formation3-->
-					<div id="formation3">		
-						<div class="class1">	
-							<i class="far fa-dot-circle"></i>2020
+					<!--sous-section-->
+					<div class="sous-section">		
+						<div class="date">
+							<i class="fas fa-circle fa-xs"></i>2003 à 2007
 						</div>
-						<div class="class2">
-						<h3>OPENCLASSROOMS,</h3>
-							<p>Développeur Web,<br/>
-							HTML/CSS<br/>
-							Git et GitHub<br/>
-							Visual Studio</p>
+						<div class="lieu">
+							<h3>LYCÉE BENJAMIN FRANKLIN (45)</h3>
+							<p>BAC ES, éconimique et social,<br/>
+							option anglais renforcé</p>
 					</div>
-				</div>
-				<!--Fin id formation_master-->
-
-			</div>
 			</section>
 	<!--Section Expérience Professionnelle-->		
 			<section>
 				<h2><i class="fas fa-briefcase"></i>EXPÉRIENCE PROFESSIONNELLE</h2>
-				<div id="experience">
-						<div class="class1">
+				<div class="sous-section">
+						<div class="date">
 						<i class="fas fa-circle fa-xs"></i>Depuis 2009</div>
-							<div class="class2"> <h3>AMAZON.FR LOGISTIQUE Saran (45),</h3>
+							<div class="lieu"> <h3>AMAZON.FR LOGISTIQUE Saran (45),</h3>
 							Préparatrice de commande,<br/>
 							Résolveur de problème,<br/>
 							Formatrice,<br/>
@@ -114,7 +106,7 @@ En reconversion, j'ai choisi ce métier pour l'opportunité qu'il nous offre à 
 				</div>
 			</section>
 	<!--Section Recommandations-->
-			<section id="reco">
+			<section>
 				<h2><i class="fas fa-pen-nib"></i>RECOMMANDATION</h2>
 					<div class="reco">
 						OPENCLASSROOMS<br/>
@@ -123,7 +115,7 @@ En reconversion, j'ai choisi ce métier pour l'opportunité qu'il nous offre à 
 						Email: <a href="mailto:hello@openclassrooms.com">hello@openclassrooms.com</a>
 					</div>
 			</section>
-		</div>
+		</main>
 <!--fin colonne de droite-->
 	</div>
 </body>
